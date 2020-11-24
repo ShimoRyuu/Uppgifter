@@ -1,0 +1,17 @@
+  
+$lightpink:       #f083c2; 
+$darkpink:        #f35b88;
+$grey:            #cccccc;
+$dark:            #333333;
+$light:           #ffffff;
+
+$primary:           $lightpink;
+$secondary:         $darkpink;
+
+$colors: (
+    "lightpink":    $lightpink,
+    "darkpink":     $darkpink,
+    "grey":         $grey,
+    "dark":         $dark,
+    "white":        $light
+);

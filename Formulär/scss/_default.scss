@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    font-family: $font-primary;
+    @include set-background($lightpink);
+}
+
+
+.vh-100 {
+    height: 100vh;
+
+}
+
+
+.form-check {
+    margin-left: 1.3rem;
+    margin-right: 1rem;
+}
+
+.form-group {
+    border: none;
+}
+
+
+.btn {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.btn-primary {
+    background-color: $secondary;
+    border: 1px solid;
+}
+.btn-primary:hover {
+    background-color: $primary!important;
+    border-color: $secondary!important;
+}
+.btn-primary:focus, btn-primary.focus {
+    background-color: $primary!important;
+    border-color: $secondary!important;
+}
+
+.form-check-input {
+    color: $secondary!important;
+}
