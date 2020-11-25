@@ -1,0 +1,11 @@
+/* 
+.collapse:not(.show) {
+    display: none;
+}
+.container {
+    width: 100%;
+    margin: auto;
+}
+.navbar {
+    display: flex;
+} */

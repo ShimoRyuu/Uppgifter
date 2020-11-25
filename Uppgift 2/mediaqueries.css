@@ -1,0 +1,46 @@
+
+@media (min-width: 768px){
+    .btn {
+        padding: 0.3rem!important;
+    }
+}
+
+@media (min-width: 992px) {
+    header {
+        background-image: url(/images/bg_blue_tablet.png);
+    }
+
+    .btn {
+        padding: 0.5rem!important;
+    }
+
+    .header-pic {
+        display: block;
+    }
+    .logo {
+        justify-content: space-between;
+        align-items: center;
+        height: 30vh;
+        width: 100vh;
+    }
+}
+
+@media (min-width: 1200px) {
+    header {background-image: url(/images/background-header.png);
+    }
+    .btn {
+        padding: 0.6rem!important;
+    }
+
+    .btn-orange {
+        padding-left: 1rem!important;
+        padding-right: 1rem!important;
+    }
+    .video {
+        justify-content: flex-start;
+        
+    }
+    .video img {
+        margin-left: 1.4rem!important;
+    }
+}

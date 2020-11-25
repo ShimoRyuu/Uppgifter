@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif!important;
+}
+
+h1 {
+    font-size: 45px;
+    margin: 1rem;
+    justify-content: space-around;
+}
+p {
+    font-size: 18px;
+    margin: 1rem;
+    justify-content: space-around;
+}
+
+button {
+    padding: 0!important;
+    border-radius: 0.7rem!important;
+    font-weight: bold!important;
+}
+
+.btn-orange {
+    background-color: #ffbb00;
+    color: white;
+    padding: 0.2rem!important;
+}
+
+.btn-blue {
+    border: 1px solid white!important;
+    color: white;
+    padding: 0.2rem!important;
+}
+.container {
+
+}
+
+/* header */
+header {
+    height: 100vh;
+    background-image: url(/images/bg_blue_mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.showcase .container {
+    height: inherit;
+    align-items: center;
+}
+.info {
+    margin-top: 10rem;
+    align-items: center;
+    
+}
+
+.header-pic {
+    display: none;
+}
+
+.video {
+    justify-content: space-between;
+}
+
+/* header */
+
+/* logooo */
+
+/* .logo {
+    justify-content: space-between;
+    align-items: left;
+    height: 30vh;
+} */
+
+.logo img {
+    object-fit: scale-down!important;
+}
+
+.logo {
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    overflow: hidden;
+    height: 30vh;
+  }
+  
+  .logo:hover {
+    -webkit-animation: spin 5s infinite;
+     animation: spin 5s infinite;
+  }
+  
+  @-webkit-keyframes spin{
+    from {
+      -webkit-transform: rotateY(0deg);
+    }
+    to {
+      -webkit-transform: rotateY(-360deg);
+    }
+  }
+  
+  @keyframes spin{
+    from {
+      -moz-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      transform: rotateY(0deg);
+    }
+    
+    to {
+      -moz-transform: rotateY(-360deg);
+      -ms-transform: rotateY(-360deg);
+      transform: rotateY(-360deg);
+    }
+  }
+/* logooo */
+
+/* about us */
+
+
+.spin {
+    animation: rotation 13s infinite linear;
+    position: relative;
+    z-index: -1;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+    #about-us {
+        /* background-image: url(/images/features/bg.png); */
+        background-repeat: no-repeat;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .about-us {
+        position: absolute;
+        margin-left: 3rem;
+    }
+    .text-about {
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .text-about .orange {
+        border: 1px solid transparent;
+        background-color: #ffbb004b;
+        width: 70px;
+        border-radius: 0.4rem;
+        color: #ffbb00;
+        padding: 0.13rem;
+        
+    }
+
+    .text-info {
+        color: #333333!important;
+    }
+/* about us */
+
+/* features */
+
+#features {
+    position: absolute;
+}
+#dotted-grid {
+    position: relative;
+    z-index: -1;
+}
+
+/* features */
