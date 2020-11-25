@@ -5,7 +5,9 @@
 html, body {
     margin: 0;
     font-family: $font-primary;
-    @include set-background($lightpink);
+    background: rgb(255,0,143);
+    background: linear-gradient(90deg, #fc44ac 30%, #1d82cc 100%);
+    // @include set-background($lightpink);
 }
 
 
@@ -34,7 +36,7 @@ html, body {
     border: 1px solid;
 }
 .btn-primary:hover {
-    background-color: $primary!important;
+    background: linear-gradient(90deg, #fc44ac 30%, #1d82cc 100%);
     border-color: $secondary!important;
 }
 .btn-primary:focus, btn-primary.focus {
