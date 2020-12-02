@@ -8,6 +8,7 @@
 @media (min-width: 992px) {
     header {
         background-image: url(/images/bg_blue_tablet.png);
+        height: 120vh;
     }
 
     .btn {
@@ -23,13 +24,56 @@
         height: 30vh;
         width: 100vh;
     }
+    .logo img {
+        height: 4rem;
+    }
+
+
+    #about-us {
+        flex-direction: row;
+        height: 100vh;
+    }
+    #snurr img {
+        height: 25rem;
+    }
+    .text-about {
+        max-width: 30rem;
+    }
+
+    #features {
+        height: 80vh;
+        padding: 0;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #features-grid {
+        flex-direction: column;
+        max-width: 50rem;
+    }
+
+    #title .app-text {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20%;
+    }
 }
 
 @media (min-width: 1200px) {
-    header {background-image: url(/images/background-header.png);
+        header {background-image: url(/images/background-header.png);
+            height: 120vh;
     }
     .btn {
         padding: 0.6rem!important;
+    }
+
+    .logo {
+        width: auto;
+    }
+    .logo img {
+        margin-top: 5rem;
+        height: 5rem;
     }
 
     .btn-orange {
@@ -43,4 +87,56 @@
     .video img {
         margin-left: 1.4rem!important;
     }
+
+    #about-us {
+        flex-direction: row;
+        justify-content: space-between;
+        height: 100vh;
+    }
+    .text-info h1, p {
+        text-align: left!important;
+    }
+    .text-about {
+        max-width: 30rem;
+    }
+    #snurr img {
+        height: 30rem;
+    }
+
+    #features {
+        height: 150vh;
+        flex-direction: row;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #feature .container {
+        height: 100vh!important;
+        width: 100vw!important;
+
+    }
+    .features-text p {
+        text-align: left!important;
+    }
+    .l-l {
+        text-align: left;
+    }
+    #dotted-grid {
+        display: flex;
+    }
+    
+    #features-grid {
+        flex-direction: row;
+    }
+    .ring-mobile img {
+        height: 30rem;
+    }
+    
+    #title .app-text {
+        margin-left: 30%;
+    }
+}
+
+@media (min-width: 1090px) {
+    header {background-image: url(/images/background-header.png);
+        height: 120vh;    
 }
