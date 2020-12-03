@@ -134,9 +134,79 @@
     #title .app-text {
         margin-left: 30%;
     }
+
+    #download-apps {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+    .download-class {
+        display: flex;
+        flex-direction: column;
+    }
+    #download-info {
+        display: flex;
+        flex-direction: column;
+        max-width: 35rem;
+        margin-left: 5rem;
+        margin-top: 5rem;
+    }
+    .download-text > h3 {
+        justify-content: left!important;
+        font-size: 57px;
+        font-weight: 500;
+        color: white;
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+    .download-btn {
+        justify-content: space-around;
+    }
+    .download-phones img {
+        display: flex;
+        flex-direction: row;
+        bottom: 0;
+        right: 0;
+    }
+    .left {
+        position: absolute;
+        bottom: 0rem;
+        right: 15rem;
+    }
+    .right {
+        position: absolute;
+        bottom: 0rem;
+        right: 0rem;
+    }
+    .front {
+        position: absolute;
+        bottom: 0rem;
+        right: 5rem;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
-@media (min-width: 1090px) {
+@media (min-width: 1920px) {
     header {background-image: url(/images/background-header.png);
-        height: 120vh;    
+        height: 120vh;
+    }
+    #features {
+        position: relative;
+        background-color: #F8F8F8;
+        justify-content: center;
+        align-items: stretch;
+        /* height: 160vh; */
+        height: inherit;
+        flex-direction: row;
+        margin-top: 1rem;
+        margin-right: 0!important;
+    }
+    .footer-links {
+        display: flex;
+        flex-direction: row;
+    }
 }

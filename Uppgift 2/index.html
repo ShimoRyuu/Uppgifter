@@ -169,7 +169,8 @@
                 </div>
             </div>
         </div>
-        <div class="ring-mobile d-flex">
+        <div class="ring-mobile d-flex" data-aos="zoom-in" data-aos-offset="300"
+        data-aos-easing="ease-in-sine" >
             <img src="images/mobile_rings_2.png" alt="">
         </div>
     </section>
@@ -219,15 +220,109 @@
         </div>
     </section>
 
-    <section id="download-apps">
+    <section id="download-apps" class="d-flex">
+        <div id="download-info" class="">
+            <div class="download-text">
+                <h3>Download the application now !
+                    to enjoy its features</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>   
+            </div>
+            <div class="download-btn d-flex">
+                <button class="google-play-btn d-flex">
+                    <img src="/images/play/Google_Play.png" alt="">
+                    <div>
+                        <p class="small-text">Get it from</p>
+                        <p class="bold-text">Google Play</p>
+                    </div>
+                </button>
+                <button class="app-store-btn d-flex">
+                    <img src="/images/play/apple_store.png" alt="">
+                    <div>
+                        <p class="small-text">Get it from</p>
+                        <p class="bold-text">App Store</p>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div class="download-phones d-flex">
+            <div class="left" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-sine"> <img src="/images/left.png" alt="">
+            </div>
+            <div class="right" data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-sine">
+                <img src="/images/right.png" alt="">
+            </div>
+            <div class="front" data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-duration="2500">
+                <img src="/images/front.png" alt="">
+            </div>
+            <!-- <img src="/images/left.png" alt="">
+            <img src="/images/right.png" alt="">
+            <img src="/images/front.png" alt=""> -->
+        </div>
 
     </section>
 
-    <section id="contact-us form">
+    <section id="contact-us form container">
+        <div class="contact-us-text d-flex justify-content">
+            <h1>Contact Us</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+        </div>
+        <form id="send" class="container">
+            <div class="form-group">
+              <label for="yourName"></label>
+              <input type="text" class="form-control" id="yourName" aria-describedby="yourName" required placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="email"></label>
+              <input type="email" class="form-control" id="email" aria-describedby="email" required placeholder="Enter your email">
+            </div>
+            <div class="form-group message">
+              <textarea name="message" id="message" cols="42" rows="10" required placeholder="Enter your message"></textarea>
+            </div>
+
+            <button class="btn btn-send d-flex justify-content">Send</button>
+        </form>
 
     </section>
 
-    <section id="bottom-border">
+    <section id="footer">
+        <div class="footer justify-content">
+            <div class="logo-footer justify-content">
+                <img src="/images/logo/logo.png" alt="">
+            </div>
+            <div class="links d-flex">
+                <ul class="navbar-nav footer-links">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Screens</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                  </ul>
+            </div>
+            <div class="social d-flex justify-content">
+                <button class="facebook"> <i class="fab fa-facebook-f"></i></button>
+                <button class="twitter"><i class="fab fa-twitter"></i></button>
+                <button class="instagram"> <i class="fab fa-instagram"></i></i></button>
+                <button class="google"> <i class="fab fa-google-plus-g"></i></button>
+                
+            </div>
+        </div>
 
     </section>
 

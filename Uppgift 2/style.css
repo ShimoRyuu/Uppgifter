@@ -63,6 +63,7 @@ button {
 
 
 
+
 /* header start */
 header {
     height: 100vh;
@@ -261,7 +262,8 @@ header {
     background-color: #F8F8F8;
     justify-content: center;
     align-items: center;
-    height: 160vh;
+    /* height: 160vh; */
+    height: inherit;
     width: 100vw;
     flex-direction: column;
     margin-top: 1rem;
@@ -331,7 +333,7 @@ header {
 /* application statistics start */
 
     #application-statistics {
-        height: 50vh;
+        height: inherit;
         background-image: url(/images/dotted_map.svg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -367,3 +369,157 @@ header {
         color: #3096FE;
     }
 /* application statistics end */
+
+/* download apps start */
+
+    #download-apps {
+        background-image: url(/images/Bg.png);
+        height: 80vh;
+    }
+
+    .download-text > h1 {
+        color: white!important;
+        padding-top: 2rem;
+    }
+    .download-text > p {
+        color: white!important;
+    }
+
+    .download-btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 5.3rem;
+    }
+    .google-play-btn {
+        border: none;
+    }
+    .app-store-btn {
+        border: none;
+    }
+    .google-play-btn:hover {
+        box-shadow: black 2px 2px 10px;
+    }
+    .app-store-btn:hover {
+        box-shadow: black 2px 2px 10px;
+    }
+    .google-play-btn .small-text {
+        font-weight: lighter;
+    }
+    .app-store-btn .small-text {
+        font-weight: lighter;
+    }
+    .google-play-btn img {
+        height: 3rem;
+        align-self: center;
+        margin-left: 0.3rem;
+    }
+
+    .app-store-btn img {
+        height: 3rem;
+        align-self: center;
+        margin-left: 0.3rem;
+    }
+    
+    .download-phones img {
+        display: none;
+    }
+
+/* download apps end */
+
+/* contact-us start */
+
+    .contact-us-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    #send {
+        height: 80vh;
+    }
+    .form-group {
+        border-style: none!important;
+        border: none!important;
+    }
+
+   
+    input[type="text"], textarea {
+
+        background-color : #FBFBFB;
+        border: none; 
+      
+    }
+    input[type="email"], textarea {
+
+        background-color : #FBFBFB; 
+        border: none;
+        margin-bottom: 3rem;
+    }
+     .btn-send {
+        height: 5rem;
+        width: 12rem;
+        background-color: #3096FE;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        margin-left: 4.5rem;
+    }
+
+    .btn-send:hover {
+        color: #ffbb00;
+        box-shadow: #0000008f 2px 2px 10px;
+    
+    }
+/* contact-us end */
+
+/* footer */
+
+    #footer {
+        background-image: url(/images/Bg_footer.png);
+        height: 50vh;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo-footer {
+        height: 3rem;
+        justify-content: center;
+        align-self: center;
+        margin: 2rem;
+    }
+
+    .links {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 1rem;
+    }
+
+    .social > button {
+        padding: 3rem;
+        height: 3rem;
+        width: 3rem;
+        background-color: #47a2fd;
+        opacity: 90%;
+        border: 1px solid transparent;
+        color: white!important;
+    }
+
+    .social > button:hover {
+        color: #ffbb00!important;
+        box-shadow: black 1px 1px 8px;
+    }
+
+/* footer end */
