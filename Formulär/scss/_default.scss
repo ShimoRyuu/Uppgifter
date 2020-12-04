@@ -5,9 +5,9 @@
 html, body {
     margin: 0;
     font-family: $font-primary;
-    background: rgb(255,0,143);
-    background: linear-gradient(90deg, #fc44ac 30%, #1d82cc 100%);
-    // @include set-background($lightpink);
+    background-image: url(/images/form-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 
@@ -36,8 +36,8 @@ html, body {
     border: 1px solid;
 }
 .btn-primary:hover {
-    background: linear-gradient(90deg, #fc44ac 30%, #1d82cc 100%);
-    border-color: $secondary!important;
+    background: pink;
+    border-color: $primary!important;
 }
 .btn-primary:focus, btn-primary.focus {
     background-color: $primary!important;
