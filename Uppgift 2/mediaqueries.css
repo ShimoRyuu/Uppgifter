@@ -150,6 +150,12 @@
         /* margin-left: 0;
         margin-right: 0; */
     }
+    .bg-features {
+        background-image: url(/images/Dotted_grid.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-color: #f8f8f8;
+    }
     #feature .container {
         height: 100vh!important;
         width: 100vw!important;
@@ -222,17 +228,17 @@
     .left {
         position: absolute;
         bottom: 0rem;
-        right: 15rem;
+        right: 16rem;
     }
     .right {
         position: absolute;
         bottom: 0rem;
-        right: 0rem;
+        right: 1rem;
     }
     .front {
         position: absolute;
         bottom: 0rem;
-        right: 5rem;
+        right: 6rem;
     }
 
     .footer-links {
