@@ -374,12 +374,13 @@ header {
 
     #download-apps {
         background-image: url(/images/Bg.png);
-        height: 80vh;
+        height: 60vh;
     }
 
-    .download-text > h1 {
+    .download-text > h3 {
         color: white!important;
-        padding-top: 2rem;
+        margin-top: 2rem;
+        text-align: center;
     }
     .download-text > p {
         color: white!important;
@@ -390,6 +391,7 @@ header {
         flex-direction: row;
         justify-content: space-between;
         height: 5.3rem;
+        margin-top: 2rem;
     }
     .google-play-btn {
         border: none;
@@ -479,7 +481,7 @@ header {
 
     #footer {
         background-image: url(/images/Bg_footer.png);
-        height: 50vh;
+        height: fit-content;
     }
     .footer {
         display: flex;
