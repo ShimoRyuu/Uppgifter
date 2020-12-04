@@ -1,0 +1,611 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: #626262;
+}
+.d-flex {
+    display: flex;
+}
+.justify-content {
+    justify-content: space-between;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+
+.border {
+    border: 1px solid black;
+}
+
+a {
+    color: #2BAAEC;
+    text-decoration: none;
+    background-color: transparent;
+}
+  
+a:hover {
+    color: #25E6C8;
+}
+
+.bg-dark {
+   background: #333333;
+   color: #ffffff; 
+}
+
+.bg-light {
+    background: #f7f7f7;
+    color: #333333; 
+}
+
+.bg-gray {
+    background: #DEDEDE; 
+}
+
+.bg-blue {
+    background: #2BAAEC;
+}
+
+.bg-beige {
+    background: #F7F7F7;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.75rem 2.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+.btn-greenish {
+    color: white;
+    background: #25E6C8;
+    font-weight: bold;
+}
+
+.btn-greenish:hover {
+    cursor: pointer;
+    background-color: #2BAAEC;
+}
+
+.btn-whiteish {
+    color: #2BAAEC;
+    background: #ffffff;
+    font-weight: bold;
+    height: 45px;
+    padding: 0.3rem 2rem;
+}
+
+.btn-whiteish:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #2BAAEC;
+    border: 1px solid white;
+}
+
+
+.cards:hover {
+    box-shadow: 1px 8px 15px;
+    transition-delay: 0.5s;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.cards:hover .ikon {
+    box-shadow: 0px 0px 0px 12px rgba(43, 168, 236, 0.279);
+    border-radius: 50%;
+    transition: ease-in 0.5s, ease-out 0.5s;
+    background-color: #2BAAEC;
+    cursor: pointer;
+}
+
+.ikon {
+    transition: ease-out 0.7s;
+}
+.ikon > img {
+    margin-top: 25px;
+}
+
+.blue {
+    color: #2BAAEC;
+}
+/* navbar-top start */
+
+.collapse:not(.show) {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+.navbar-top {
+    border-bottom: 1px solid #707070;
+
+}
+
+.navbar, .navbar-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.navbar .container, .navbar-top .container {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+}
+
+.navbar-top .container {
+    font-size: 0.8rem;
+}
+
+.navbar-top .container .hours {
+    color:#626262;
+}
+
+.navbar-top .container .hours i {
+    color: #2BAAEC;
+    margin-right: 0.5rem;
+    font-size: 1.2em;
+}
+
+.navbar-top .container .socialmedia a {
+    margin: 0 0.5rem;
+}
+
+/* navbar-top end */
+
+/* navbar start */
+
+.navbar {
+    margin: 1.2rem 0;
+}
+
+.navbar-brand {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: black;
+    margin-right: 1rem;  
+}
+
+.navbar-brand img:not(.show) {
+    height: 4rem;
+    margin-top: 0.5rem;
+}
+.navbar-toggler {
+    font-size: 2.5rem;
+    color:#2BAAEC;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.navbar-collapse {
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link {
+    color: #363636;
+    font-size: 1rem;
+    font-family: 'Roboto Slab', serif;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* navbar start */
+
+/* showcase start */
+
+#showcase .container {
+    display: grid;
+    grid-auto-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
+    column-gap: 4rem;
+    height: 400px;
+
+    /* align-items: center; */
+}
+
+#showcase .container img {
+    display: none;
+    height: 500px;
+    width: 100%;
+    margin-top: 1rem;
+    
+}
+
+#showcase .container .showcase-content-box {
+    text-align: center;
+    color: #363636;
+    font-weight: 300;
+}
+
+.showcase-content-box .showcase-content h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.8rem;
+    font-weight: 300;
+    line-height: 1.11;
+}
+
+.showcase-content-box .showcase-content p{
+    font-size: 0.9rem;
+}
+
+/* showcase end */
+
+/* about us start */
+
+
+#about-us .container {
+    display: flex;
+    margin-top: 5rem;
+}
+
+#about-us .container .about-us-content {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+#about-us .container .about-us-content h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.8rem;
+    font-weight: 300;
+    line-height: 1.11;
+}
+
+hr {
+    border-style: solid;
+    color: #25E6C8;
+    background: #25E6C8;
+    height: 2px;
+}
+
+#about-us .container p {
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+#about-us .container img {
+    display: none;
+    height: 100%;
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    
+}
+
+
+
+.block1 {
+    color: #2BAAEC;
+    font-size: 40px;
+}
+.block1 .block-text {
+    color: black;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.block2 {
+    color: #2BAAEC;
+    font-size: 40px;
+}
+
+.block2 .block-text {
+    color: black;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.block3 {
+    color: #2BAAEC;
+    font-size: 40px;
+}
+
+.block3 .block-text {
+    color: black;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* about-us end */
+
+/* our services start */
+
+/* use grid for this one, and yes, animations cause fuck it */
+
+#our-services h1 {
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: 0;
+}
+
+#our-services hr {
+    width: 60%;
+    margin-bottom: 3rem;
+}
+
+#our-services > .container {
+    display: grid;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+}
+
+.cards {
+    margin-bottom: 25px;
+    /* padding-top: 4rem; */
+    border-style: none;
+    background-color: #ffffff;
+    border-radius: 2%;
+    height: 360px;
+    width: 100%;
+    /* padding: 3rem 6rem; */
+
+}
+
+.ikon {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #25E6C8;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+}
+/* #tooth-inspection {
+    grid-template-areas: "t1";
+}
+
+.grid {
+    display: grid;
+
+    grid-template-rows: 3fr 1fr;
+    grid-template-areas:    "t1"
+                            "t2"
+                            "t3"
+                            "t4"
+                            "t5"
+                            "t6"
+    ;
+} */
+
+/* our services end */
+
+/* appointment start */
+
+.appointment {
+    background: #2ba8ecd2;
+    height: 9.2rem;
+}
+
+
+.appointment .container-appointment {
+    padding: 2rem;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    display: inline;
+    justify-content: space-between;
+}
+
+.appointment .container-appointment .btn {
+    margin-left: 5rem;
+
+}
+
+
+/* apppointment end */
+
+/* footer start */
+
+.footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #F3FBFF;
+    background: #2BAAEC;
+    font-size: 16px;
+    padding: 0.5rem 0rem;
+}
+
+.overlay {
+    opacity: 80;
+    background-color: #2BAAEC;
+}
+
+/* footer end */
+
+/* .showcase, .about-us, .our-services, .appointment, .footer {
+    text-align: center;
+} */
+
+@media (min-width: 768px) {
+
+
+    .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+    
+    .collapse:not(.show) {
+        display: flex;
+    }
+
+    .container {
+        max-width: 720px;
+    }
+
+    #showcase .container .showcase-content-box {
+        text-align: left;
+    }
+
+    #about-us .container .about-us-content {
+        text-align: left;
+    }
+
+    .appointment .container-appointment {
+      
+        display: inline-flex;
+        justify-content: space-between;
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    #showcase .container .showcase-content-box {
+        text-align: left;
+        align-self: center;
+    }
+    #showcase .container {
+        height: 517px;
+    }
+    #showcase .container img:not(.show) {
+        display: flex;
+        height: 500px;
+        width: 100%;
+        margin-top: 1rem;
+        
+    }
+
+    #showcase .container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #about-us .container img:not(.show) {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        margin-top: 1rem;
+        
+        
+    }
+
+    #about-us .container .about-us-content {
+        text-align: left;
+    }
+    
+    #our-services hr {
+        width: 30%;
+    }
+    .cards {
+        height: 360px;
+        width: 450px;
+    
+    }
+
+    .footer {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        color: #FFFFFF;
+        background: #2BAAEC;
+        font-size: 16px;
+        padding-top: 0.7rem;
+    }
+
+    
+.appointment .container-appointment {
+    padding-top: 3rem;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    #showcase .container img:not(.show) {
+        display: flex;
+        height: 500px;
+        width: 100%;
+        margin-top: 1rem;
+        
+    }
+
+    #about-us .container img:not(.show) {
+        display: flex;
+        height: 600px;
+        width: 100%;
+        margin-top: 1rem;
+        
+    }
+
+    #our-services hr {
+        width: 18.2%;
+    }
+
+    .cards {
+        height: 360px;
+        width: 350px;
+    
+    }
+    .footer {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        color: #FFFFFF;
+        background: #2BAAEC;
+        font-size: 16px;
+        padding-top: 0.7rem;
+    }
+
+    
+.appointment .container-appointment {
+    padding-top: 3rem;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+}
