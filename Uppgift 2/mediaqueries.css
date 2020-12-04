@@ -48,8 +48,11 @@
     }
 
     #features-grid {
+        display: grid;
         flex-direction: column;
         max-width: 50rem;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     #title .app-text {
@@ -71,13 +74,6 @@
         margin-top: 2rem;
     }
 
-    input[type="text"], textarea {
-        width: 90vw;  
-    }
-
-    input[type="email"], textarea {
-        width: 90vw;
-    }
 
     .btn-send {
         justify-content: center;
@@ -151,8 +147,8 @@
     #features {
         height: 150vh;
         flex-direction: row;
-        margin-left: 0;
-        margin-right: 0;
+        /* margin-left: 0;
+        margin-right: 0; */
     }
     #feature .container {
         height: 100vh!important;
@@ -178,6 +174,15 @@
     
     #title .app-text {
         margin-left: 30%;
+    }
+
+    .blue-text {
+        font-weight: bold;
+        font-size: 40px;
+        color: #3096FE;
+    }
+    .black-text {
+        font-size: 20px;
     }
 
     #download-apps {
@@ -240,16 +245,21 @@
     header {background-image: url(/images/background-header.png);
         height: 120vh;
     }
+    .bg-features {
+        background-image: url(/images/Dotted_grid.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-color: #f8f8f8;
+    }
     #features {
         position: relative;
         background-color: #F8F8F8;
         justify-content: center;
         align-items: stretch;
-        /* height: 160vh; */
         height: inherit;
         flex-direction: row;
         margin-top: 1rem;
-        margin-right: 0!important;
+        /* margin-right: 0!important; */
     }
 
     #application-statistics {
@@ -304,15 +314,8 @@
         right: 15rem;
     }
 
-    input[type="text"], textarea {
-       width: 60vw;
-    }
-    input[type="email"], textarea {
-        width: 60vw; 
-    }
-    input[id="message"], textarea {
-        margin-left: 1rem;
-    }
+
+
     .footer-links {
         display: flex;
         flex-direction: row;

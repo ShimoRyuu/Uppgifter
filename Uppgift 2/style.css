@@ -61,7 +61,9 @@ button {
     box-shadow: #0000008f 2px 2px 10px;
 }
 
-
+.border {
+    border: 1px solid black;
+}
 
 
 /* header start */
@@ -257,12 +259,13 @@ header {
 
 /* features start */
 
+
 #features {
     position: relative;
     background-color: #F8F8F8;
     justify-content: center;
     align-items: center;
-    /* height: 160vh; */
+    
     height: inherit;
     width: 100vw;
     flex-direction: column;
@@ -365,16 +368,22 @@ header {
 
     .blue-text {
         font-weight: bold;
-        font-size: 30px;
+        font-size: 15px;
         color: #3096FE;
+    }
+    .black-text {
+        font-size: 10px;
     }
 /* application statistics end */
 
 /* download apps start */
 
-    #download-apps {
+    /* #download-apps {
         background-image: url(/images/Bg.png);
         height: 60vh;
+    } */
+    .bg-download-apps {
+        background-image: url(/images/Bg.png);
     }
 
     .download-text > h3 {
@@ -440,7 +449,8 @@ header {
     }
 
     #send {
-        height: 80vh;
+        height: auto;
+        margin-bottom: 3rem;
     }
     .form-group {
         border-style: none!important;
@@ -458,7 +468,12 @@ header {
 
         background-color : #FBFBFB; 
         border: none;
-        margin-bottom: 3rem;
+    }
+    #message {
+        padding-top: 1rem;
+        padding-bottom: 10rem;
+    } {
+
     }
      .btn-send {
         height: 5rem;
